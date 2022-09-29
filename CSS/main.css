@@ -46,6 +46,7 @@ body {
 #main img {
   float: left;
   border-radius: 3vw;
+  margin-right: 8px;
 }
 #main p {
   font-weight: bold;
