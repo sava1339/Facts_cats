@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#head {
+  background: #A0DFC6;
+  height: 60px;
+  border-bottom: 5px solid #83a0de;
+}
+#sitelogo {
+  padding-top: 5px;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 15px;
+  font-size: 26px;
+  float: left;
+}
+#sitelogo a {
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+#sitelogo a:hover {
+  cursor:pointer;
+  color: white;
+  background-color: #90B0F5;
+  border-radius: 5px;
+  text-align: center;
+}
+body {
+  background: url("img/img.png");
+  width: 100%;
+  height: 100%;
+}
+#main {
+  float: left;
+  background: #83a0de;
+  margin: 15px;
+  font-family: 'Oswald', sans-serif;
+  padding: 50px;
+  border-radius: 30px;
+  opacity: 85%;
+}
+#main img {
+  float: left;
+  border-radius: 3vw;
+}
+#main p {
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+  #sitelogo {
+    font-size: 20px;
+  }
+  #head {
+    height: 38px;
+  }
+  #main img {
+    width: 50%
+  }
+  #main p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #sitelogo {
+    font-size: 20px;
+  }
+  #head {
+    height: 38px;
+  }
+  #main img {
+    width: 40%
+  }
+  #main p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #sitelogo {
+    font-size: 15px;
+  }
+  #head {
+    height: 30px;
+  }
+  #main img {
+    width: 50%
+  }
+  #main p {
+    font-size: 15px;
+  }
+}
