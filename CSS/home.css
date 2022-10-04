@@ -39,6 +39,18 @@
   background-position: center top;
   height: 480px;
 }
+#left_logo {
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  font-size: 2.8vw;
+  margin-left: 10px;
+}
+#right_logo {
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  font-size: 2.8vw;
+  margin-right: 10px;
+}
 @media screen and (max-width: 800px) {
   #sitelogo {
     font-size: 20px;
