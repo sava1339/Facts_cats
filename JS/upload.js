@@ -8,7 +8,7 @@ function cat(el) {
 var l_cat = localStorage.getItem('cat');
 var elem = document.getElementById("gggg");
 var elem1 = document.getElementById("info");
-var elem2 = document.getElementById('image').src;
+var elem2 = document.getElementById("image").src;
 console.log(l_cat);
 if(l_cat == "Британская") {
   elem1.innerHTML = ("Тема:"+"Британская")
