@@ -48,7 +48,7 @@ body {
   float: left;
   border-radius: 3vw;
   margin-right: 8px;
-  max-width: 60%;
+  max-width: 40%;
 }
 #info {
   font-weight: bold;
@@ -63,7 +63,7 @@ body {
     height: 38px;
   }
   #main img {
-    width: 60%;
+    width: 40%;
   }
   #main p {
     font-size: 20px;
@@ -78,7 +78,7 @@ body {
     height: 38px;
   }
   #main img {
-    width: 50%
+    width: 35%
   }
   #main p {
     font-size: 20px;
@@ -92,7 +92,7 @@ body {
     height: 30px;
   }
   #main img {
-    width: 40%
+    width: 30%
   }
   #main p {
     font-size: 15px;
