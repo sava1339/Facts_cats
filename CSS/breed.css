@@ -50,6 +50,7 @@
   border-radius: 10px;
   width: 100%;
   font-family: 'Oswald', sans-serif;
+  font-size: 28px;
 }
 .text {
   font-family: 'Oswald', sans-serif;
@@ -62,12 +63,18 @@
   color: orange;
   font-size: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
   #sitelogo {
     font-size: 20px;
   }
   #head {
     height: 38px;
+  }
+  .i_breed {
+    font-size: 18px;
+  }
+  .breed {
+    width: 27%;
   }
 }
 
@@ -78,6 +85,12 @@
   #head {
     height: 38px;
   }
+  .i_breed {
+    font-size: 20px;
+  }
+  .breed {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 480px) {
   #sitelogo {
@@ -85,5 +98,11 @@
   }
   #head {
     height: 30px;
+  }
+  .i_breed {
+    font-size: 28px;
+  }
+  .breed {
+    width: 40%;
   }
 }
