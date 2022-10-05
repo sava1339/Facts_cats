@@ -63,7 +63,7 @@
   color: orange;
   font-size: 20px;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   #sitelogo {
     font-size: 20px;
   }
